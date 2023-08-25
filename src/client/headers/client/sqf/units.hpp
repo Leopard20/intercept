@@ -134,6 +134,7 @@ namespace intercept {
         void move_in_gunner(const object &unit_, const object &vehicle_);
         void move_in_turret(const object &unit_, const object &vehicle_, rv_turret_path turret_path_);
 
+        bool is_remote_controlling(const object &unit_);
         object remote_controlled(const object &obj_);
         void remote_control(const object &controller_, const object &controlled_);
         rv_vehicle_role assigned_vehicle_role(const object &unit_);

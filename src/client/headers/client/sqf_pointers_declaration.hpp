@@ -1,4 +1,4 @@
-//Exported Pointer Definitions For: Arma 3 213.150832 - Diag
+//Exported Pointer Definitions For: Arma 3 215.150914 - Diag
 
 
 // Unary Functions
@@ -675,6 +675,7 @@ static unary_function unary__isonroad__object_array__ret__bool;
 static unary_function unary__isplayer__object__ret__bool;
 static unary_function unary__isplayer__array__ret__bool;
 static unary_function unary__isrealtime__control__ret__bool;
+static unary_function unary__isremotecontrolling__object__ret__bool;
 static unary_function unary__isshowing3dicons__control__ret__bool;
 static unary_function unary__issimpleobject__object__ret__bool;
 static unary_function unary__issprintallowed__object__ret__bool;

@@ -673,6 +673,7 @@ unary_function __sqf::unary__isonroad__object_array__ret__bool;
 unary_function __sqf::unary__isplayer__object__ret__bool;
 unary_function __sqf::unary__isplayer__array__ret__bool;
 unary_function __sqf::unary__isrealtime__control__ret__bool;
+unary_function __sqf::unary__isremotecontrolling__object__ret__bool;
 unary_function __sqf::unary__isshowing3dicons__control__ret__bool;
 unary_function __sqf::unary__issimpleobject__object__ret__bool;
 unary_function __sqf::unary__issprintallowed__object__ret__bool;

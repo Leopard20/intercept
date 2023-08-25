@@ -385,6 +385,10 @@ namespace intercept {
             host::functions.invoke_raw_binary(__sqf::binary__moveinturret__object__array__ret__nothing, unit_, params);
         }
 
+        bool intercept::sqf::is_remote_controlling(const object &unit_) {
+            return host::functions.invoke_raw_unary(__sqf::unary__isremotecontrolling__object__ret__bool, unit_);
+        }
+
         object remote_controlled(const object &obj_) {
             return host::functions.invoke_raw_unary(__sqf::unary__remotecontrolled__object__ret__object, obj_);
         }

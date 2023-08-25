@@ -1,4 +1,4 @@
-//Exported Pointer Assignments For: Arma 3 213.150832 - Diag
+//Exported Pointer Assignments For: Arma 3 215.150914 - Diag
 
 
 // Unary Functions
@@ -675,6 +675,7 @@ __sqf::unary__isonroad__object_array__ret__bool = (unary_function)host::function
 __sqf::unary__isplayer__object__ret__bool = (unary_function)host::functions.get_unary_function_typed("isplayer"sv, "OBJECT"sv);
 __sqf::unary__isplayer__array__ret__bool = (unary_function)host::functions.get_unary_function_typed("isplayer"sv, "ARRAY"sv);
 __sqf::unary__isrealtime__control__ret__bool = (unary_function)host::functions.get_unary_function_typed("isrealtime"sv, "CONTROL"sv);
+__sqf::unary__isremotecontrolling__object__ret__bool = (unary_function)host::functions.get_unary_function_typed("isremotecontrolling"sv, "OBJECT"sv);
 __sqf::unary__isshowing3dicons__control__ret__bool = (unary_function)host::functions.get_unary_function_typed("isshowing3dicons"sv, "CONTROL"sv);
 __sqf::unary__issimpleobject__object__ret__bool = (unary_function)host::functions.get_unary_function_typed("issimpleobject"sv, "OBJECT"sv);
 __sqf::unary__issprintallowed__object__ret__bool = (unary_function)host::functions.get_unary_function_typed("issprintallowed"sv, "OBJECT"sv);
